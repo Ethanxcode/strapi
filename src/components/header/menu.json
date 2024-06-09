@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_header_menus",
+  "info": {
+    "displayName": "menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "icon": {
+      "type": "customField",
+      "customField": "plugin::heroicons-field.icon-picker"
+    }
+  }
+}

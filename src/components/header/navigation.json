@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_header_navigations",
+  "info": {
+    "displayName": "navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menus": {
+      "displayName": "menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.menu",
+      "required": true
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
